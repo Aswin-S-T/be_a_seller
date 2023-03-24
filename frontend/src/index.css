@@ -20,10 +20,9 @@ a{
   grid-template-areas:
     'header'
     'main'
-    'section'
     'footer';
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 5rem 1fr 5rem;
+  grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
 }
 header {
@@ -79,7 +78,7 @@ section{
 
 img.prod-image{
   height: 400px;
-  width: 300px;
+  width: 270px;
   max-height: 400px;
 }
 
@@ -113,4 +112,9 @@ img.medium {
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
 }
